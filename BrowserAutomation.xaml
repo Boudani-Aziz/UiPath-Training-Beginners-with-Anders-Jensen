@@ -1,0 +1,267 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="BrowserAutomation" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="886.4,2346.4" sap2010:WorkflowViewState.IdRef="BrowserAutomation_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="33">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="30">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="BrowserAutomation" sap:VirtualizedContainerService.HintSize="892.8,2281.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: Janders – High Quality RPA Courses" sap:VirtualizedContainerService.HintSize="851.2,2188.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="df8a82c3-47e4-45c6-94d7-533a6fe81f89" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Ausführen" sap:VirtualizedContainerService.HintSize="817.6,1972" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="scg:List(x:String)" Name="listCourseTitles">
+                <Variable.Default>
+                  <mva:VisualBasicValue x:TypeArguments="scg:List(x:String)" ExpressionText="New List(Of String)" />
+                </Variable.Default>
+              </Variable>
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ClickType="Single" DisplayName="Click 'Courses'" sap:VirtualizedContainerService.HintSize="776,157.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df8a82c3-47e4-45c6-94d7-533a6fe81f89" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://janders.tech/" DesignTimeRectangle="1455, 195, 66, 18" ElementType="Text" FriendlyName="'Courses'" FullSelectorArgument="&lt;webctrl parentid='menu-item-68' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='menu-item-68' tag='SPAN' type='' aaname='Courses' check:text='Courses' /&gt;" Guid="2f8837eb-e74a-44ff-a3e4-2f67c6a7ab36" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEYAAAAWCAYAAAB9oOpzAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGTSURBVFhH7ZbZkcMgDIa3STcTlxLq8LiNDFUkTbAcwggdOMT7tNE/w8MC1vFJIvsTTKIMjCIDo8jAKDIwigyMIhnMaw/rsoQFLfeAsy8RA+PvCcQa9hdsJFVQdw8b/189mIfjUKry2fd0DgLzDPtt1BU+eAkKHbvbHi31em4r32dFKP7d1uwdRWCj7WI0XNkPuicWEQp8LCHeJATGB6cZ0wRO1q2aBrjE2QwYbYxxXHncJR/4W/iuxRal+RSaoYERAhhLMSrYmQJD7bF7kkpROwhRBVbrLvr3SBfAyMFICc6A4faKn74ziTR4OSe0DzkmW2d5Xhgl7f5fg0kCm5AUSyzb6s/bosAaaPm8aOLxpefjjsH718FgVUjoW61jTlUh8fFCYKJGDqAqrVIKSO2NIc7L3idgkki3as9AjvnkTaHjBurBRE39gwewWjIAS+wOnshbYIRivQead7T0nfQLl8TAZEEieLFqVB1JwlJGsQRV78XgWKUGHcPiIYUD9T5kW/SO1lEyGJOB0WRgFBkYUSH8AhhnkVtpvlB/AAAAAElFTkSuQmCC" InformativeScreenshot="6c031950086807390ddb72f6ab57702c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Janders – High Quality RPA Courses' /&gt;" SearchSteps="FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'Courses'" sap:VirtualizedContainerService.HintSize="776,52.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="df8a82c3-47e4-45c6-94d7-533a6fe81f89" Timeout="10" Version="V1">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="Ziel wird angezeigt Course Page" sap:VirtualizedContainerService.HintSize="796,1104.8" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:Boolean" Default="True" Name="boulNewCourseExists" />
+                    <Variable x:TypeArguments="x:Int32" Default="1" Name="intCourseNumber" />
+                    <Variable x:TypeArguments="x:String" Name="strCourseTitle" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InterruptibleWhile Condition="[boulNewCourseExists And intCourseNumber &lt; 10]" DisplayName="While" sap:VirtualizedContainerService.HintSize="754.4,1010.4" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+                    <ui:InterruptibleWhile.Body>
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="719.2,843.2" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NCheckState DisplayName="Check App State 'Course Titles'" Exists="[boulNewCourseExists]" sap:VirtualizedContainerService.HintSize="677.6,750.4" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="df8a82c3-47e4-45c6-94d7-533a6fe81f89" Version="V1">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Ziel wird angezeigt" sap:VirtualizedContainerService.HintSize="375.2,532" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NGetText DisplayName="Get Text 'Course Titles'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="df8a82c3-47e4-45c6-94d7-533a6fe81f89" Version="V1">
+                                <uix:NGetText.Target>
+                                  <uix:TargetAnchorable BrowserURL="https://janders.tech/courses/" DesignTimeRectangle="730, 383, 416, 75" FriendlyName="'UiPath Beginners'" FullSelectorArgument="[String.Format(&quot;&lt;webctrl tag='A' parentclass='blog-entry-title entry-title' idx='{0}' /&gt;&quot;, intCourseNumber)]" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' aaname=' &amp;#x9;&amp;#x9; &amp;#x9;' /&gt;" Guid="f789e5cb-6921-4e50-ae13-029f9efc30c0" ImageBase64="" InformativeScreenshot="14560dea4e79d67b5e0092139ba81b3b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Courses – Janders' /&gt;" SearchSteps="Selector" />
+                                </uix:NGetText.Target>
+                                <uix:NGetText.Text>
+                                  <OutArgument x:TypeArguments="x:String">[strCourseTitle]</OutArgument>
+                                </uix:NGetText.Text>
+                              </uix:NGetText>
+                              <InvokeMethod DisplayName="Invoke Method" sap:VirtualizedContainerService.HintSize="333.6,138.4" sap2010:WorkflowViewState.IdRef="InvokeMethod_1" MethodName="Add">
+                                <InvokeMethod.TargetObject>
+                                  <InArgument x:TypeArguments="scg:List(x:String)">[listCourseTitles]</InArgument>
+                                </InvokeMethod.TargetObject>
+                                <InArgument x:TypeArguments="x:String">
+                                  <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="strCourseTitle.Replace(&quot;–&quot;,&quot;-&quot;)" />
+                                </InArgument>
+                              </InvokeMethod>
+                              <Assign sap:VirtualizedContainerService.HintSize="333.6,61.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+                                <Assign.To>
+                                  <OutArgument x:TypeArguments="x:Int32">[intCourseNumber]</OutArgument>
+                                </Assign.To>
+                                <Assign.Value>
+                                  <InArgument x:TypeArguments="x:Int32">[intCourseNumber+1]</InArgument>
+                                </Assign.Value>
+                              </Assign>
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Ziel wird nicht angezeigt" sap:VirtualizedContainerService.HintSize="249.6,85.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="https://janders.tech/courses/" DesignTimeRectangle="730, 138, 416, 75" ElementType="Text" FriendlyName="'UiPath Beginners'" FullSelectorArgument="[String.Format(&quot;&lt;webctrl tag='A' parentclass='blog-entry-title entry-title' idx='{0}' /&gt;&quot;, intCourseNumber)]" FuzzySelectorArgument="&lt;webctrl tag='A' parentclass='blog-entry-title entry-title' type='' aaname='UiPath Beginners Course (9 Complete Use Cases)' check:text='UiPath Beginners Course (9 Complete Use Cases)' /&gt;" Guid="188bca2c-cfe4-48b7-a30e-10d444dd1171" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAaQAAAAFCAYAAAAKe5jKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAAfSURBVGhD7cExAQAAAMKg9U9tDQ8gAAAAAAAAAIA/NSDVAAH8TjLqAAAAAElFTkSuQmCC" InformativeScreenshot="c6bfd68a7c8cee5d8ce2f37b711c1ceb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Courses – Janders' /&gt;" SearchSteps="Selector" />
+                          </uix:NCheckState.Target>
+                        </uix:NCheckState>
+                      </Sequence>
+                    </ui:InterruptibleWhile.Body>
+                  </ui:InterruptibleWhile>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="Ziel wird nicht angezeigt" sap:VirtualizedContainerService.HintSize="249.6,85.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable BrowserURL="https://janders.tech/courses/" DesignTimeRectangle="209, 295, 1500, 53" FriendlyName="'Courses'" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' aaname='Courses' check:text='Courses' /&gt;" Guid="00bc5e5f-e15a-4ab0-b1f5-65f106d43a17" ImageBase64="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" InformativeScreenshot="a5013112f050a7036fd92f14b27c144b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Courses – Janders' /&gt;" SearchSteps="FuzzySelector" />
+              </uix:NCheckState.Target>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NCheckState>
+            <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="776,1588" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[listCourseTitles]">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="x:String">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:String" Name="courseTitle" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Hauptteil" sap:VirtualizedContainerService.HintSize="740.8,1461.6" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="699.2,82.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://www.udemy.com/" Version="V1" />
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Udemy Serachfiled'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="699.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="df8a82c3-47e4-45c6-94d7-533a6fe81f89" Text="[&quot;'&quot;+courseTitle+&quot;'&quot;]" Version="V1">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.udemy.com/" DesignTimeRectangle="351, 161, 711, 43" ElementType="InputBox" FriendlyName="'INPUT u62-search-form-a…'" FullSelectorArgument="&lt;webctrl tag='INPUT' type='text' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='Suche nach einem beliebigen Thema' /&gt;" Guid="e3e39583-0f66-4b2d-8ca9-3d56d05669e5" ImageBase64="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" InformativeScreenshot="63c923443a2c87021074ab302a9f3919.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Onlinekurse – Lerne, was und wann es für dich passt! | Udemy' /&gt;" SearchSteps="FuzzySelector, Image" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="699.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V1" />
+                    <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State 'does Course Title exists in Udemy'" sap:VirtualizedContainerService.HintSize="699.2,769.6" sap2010:WorkflowViewState.IdRef="NCheckState_3" ScopeIdentifier="df8a82c3-47e4-45c6-94d7-533a6fe81f89" Version="V1">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Ziel wird angezeigt" sap:VirtualizedContainerService.HintSize="375.2,551.2" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="x:String" Name="strRating" />
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ClickType="Single" DisplayName="Click Udemy titles" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="df8a82c3-47e4-45c6-94d7-533a6fe81f89" Version="V1">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="https://www.udemy.com/courses/search/?src=ukw&amp;q=UiPath+Beginners+Course+%289+Complete+Use+Cases%29" DesignTimeRectangle="859, 519, 445, 27" ElementType="Text" FriendlyName="'UiPath Beginners'" FullSelectorArgument="[&quot;&lt;webctrl tag='A' aaname='&quot; + courseTitle +&quot;' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl parentid='u214-popper-trigger--202' tag='A' type='' aaname='UiPath Beginners Course (9 Complete Use Cases)' check:text='UiPath Beginners Course (9 Complete Use Cases)' /&gt;" Guid="b2fe4f57-1923-4979-9d8f-bf8dd034e8e7" ImageBase64="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" InformativeScreenshot="789e48efeefff711cef0bde26390e376.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Onlinekurse – Lerne, was und wann es für dich passt! | Udemy' /&gt;" SearchSteps="Selector" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NGetText DisplayName="Get Text 'Rating'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="df8a82c3-47e4-45c6-94d7-533a6fe81f89" Version="V1">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="https://www.udemy.com/course/uipath-1-beginner/" DesignTimeRectangle="425, 478, 1, 1" ElementType="Text" FriendlyName="'Bewertung: 4,8 von 5'" FullSelectorArgument="&lt;webctrl aaname='*,*' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;a&amp;gt;span&amp;gt;span' parentid='de' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='de' tag='SPAN' /&gt;" Guid="0888fa25-cb73-4cbc-98ab-a48df73c3fae" ImageBase64="" InformativeScreenshot="5701e774ca6e135eb246fc1b01627a50.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*| Udemy' /&gt;" SearchSteps="Selector" />
+                            </uix:NGetText.Target>
+                            <uix:NGetText.Text>
+                              <OutArgument x:TypeArguments="x:String">[strRating]</OutArgument>
+                            </uix:NGetText.Text>
+                          </uix:NGetText>
+                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="333.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_3" Text="[courseTitle + &quot;|&quot; + strRating]" />
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Ziel wird nicht angezeigt" sap:VirtualizedContainerService.HintSize="271.2,156" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="229.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="[courseTitle + &quot;doesnt exist&quot;]" />
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.udemy.com/courses/search/?src=ukw&amp;q=UiPath+Beginners+Course+%289+Complete+Use+Cases%29" DesignTimeRectangle="859, 519, 445, 27" ElementType="Text" FriendlyName="'UiPath Beginners'" FullSelectorArgument="[&quot;&lt;webctrl tag='A' aaname='&quot; + courseTitle +&quot;' /&gt;&quot;]" FuzzySelectorArgument="&lt;webctrl tag='A' aaname='UiPath Beginners Course (9 Complete Use Cases)' type='' check:text='UiPath Beginners Course (9 Complete Use Cases)' /&gt;" Guid="b5085295-eabf-4e94-9fad-c8a773806831" ImageBase64="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" InformativeScreenshot="484effdfeb2b130aafc564c0a1637816.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Onlinekurse – Lerne, was und wann es für dich passt! | Udemy' /&gt;" SearchSteps="Selector" />
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="396, 29, 1326, 1007" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="725d5b8c8582688be295de36f8681282.png" Selector="&lt;html app='chrome.exe' title='Janders – High Quality RPA Courses'/&gt;" Url="https://janders.tech/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
